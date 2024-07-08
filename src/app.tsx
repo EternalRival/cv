@@ -41,11 +41,3 @@ export function App(): JSX.Element {
     </div>
   );
 }
-/* 
-      min-width: 320px;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: #d7e6c3;
-  box-shadow: 0 0 3px #3d571b;
-*/
