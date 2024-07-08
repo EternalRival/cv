@@ -3,6 +3,7 @@ export { Contacts } from './contacts';
 export { Education } from './education';
 export { Experience } from './experience';
 export { GithubLink } from './github-link';
+export { GroupIcon } from './group-icon';
 export { Languages } from './languages';
 export { NavBar } from './nav-bar';
 export { Person } from './person';

@@ -1,6 +1,7 @@
+import clsx from 'clsx';
 import { Fragment } from 'react/jsx-runtime';
 import { SectionId } from '~/model/section-id.enum';
-import clsx from 'clsx';
+import { GroupIcon } from './group-icon';
 
 const projectsProps = [
   {
@@ -17,11 +18,17 @@ const projectsProps = [
     label: 'online-store',
     sourceHref: 'https://github.com/EternalRival/RSSchool-JSFE2022Q3/tree/main/online-store',
     deployHref: 'https://eternalrival.github.io/RSSchool-JSFE2022Q3/online-store/',
+    isTeamProject: true,
   },
   {
     label: 'virtual-keyboard',
     sourceHref: 'https://github.com/EternalRival/virtual-keyboard',
     deployHref: 'https://eternalrival.github.io/virtual-keyboard/',
+  },
+  {
+    label: 'graphiql-app',
+    sourceHref: 'https://github.com/EternalRival/GraphiQL-App',
+    isTeamProject: true,
   },
   {
     label: 'e-commerce-app',
@@ -36,12 +43,15 @@ export function Experience(): JSX.Element {
     <section id={SectionId.Experience}>
       <h2 className="heading">Experience</h2>
 
-      <div className="p-2">
+      <div className="p-2 text-sm">
         <div className="grid max-w-fit grid-cols-3 border border-primary-900">
-          {projectsProps.map(({ label, sourceHref, deployHref, className }) => (
+          {projectsProps.map(({ label, sourceHref, deployHref, className, isTeamProject }) => (
             <Fragment key={label}>
-              <div className={'border border-primary-900 p-1 font-medium'}>
-                <span className={className}>{label}</span>
+              <div
+                className={'border border-primary-900 p-1 font-medium'}
+                title={isTeamProject ? 'Team project' : 'Solo project'}
+              >
+                <span className={className}>{label}</span> {isTeamProject && <GroupIcon />}
               </div>
               <div className="border border-primary-900 p-1 text-center">
                 <a
@@ -52,12 +62,16 @@ export function Experience(): JSX.Element {
                 </a>
               </div>
               <div className="border border-primary-900 p-1 text-center">
-                <a
-                  href={deployHref}
-                  className={clsx('link', className)}
-                >
-                  deploy
-                </a>
+                {deployHref ? (
+                  <a
+                    href={deployHref}
+                    className={clsx('link', className)}
+                  >
+                    deploy
+                  </a>
+                ) : (
+                  '-'
+                )}
               </div>
             </Fragment>
           ))}
