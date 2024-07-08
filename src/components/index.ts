@@ -9,4 +9,3 @@ export { NavBar } from './nav-bar';
 export { Person } from './person';
 export { Summary } from './summary';
 export { TechStack } from './tech-stack';
-
