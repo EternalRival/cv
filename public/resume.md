@@ -25,8 +25,8 @@
 ### Experience
 
 - **gem-puzzle**
-  - [source](https://github.com/EternalRival/RSSchool-JSFE2022Q3/tree/main/gem-puzzle) / [deploy](https://eternalrival.github.io/RSSchool-JSFE2022Q3/gem-puzzle/)  
   - Study Project  
+  - [source](https://github.com/EternalRival/RSSchool-JSFE2022Q3/tree/main/gem-puzzle) / [deploy](https://eternalrival.github.io/RSSchool-JSFE2022Q3/gem-puzzle/)  
   - A classic 15 puzzle game made with JS classes and canvas. SPA. Implemented selection of playing field size and saving records between game sessions.
   - JS, Webpack, Sass
 - **songbird**
