@@ -1,12 +1,14 @@
+import githubIconSrc from '~/assets/er-github.png';
+
 export function GithubLink(): JSX.Element {
   return (
     <a
       href="http://github.com/EternalRival/"
       target="_blank"
-      className="h-10 hover:scale-110 duration-150"
+      className="h-10 duration-150 hover:scale-110"
     >
       <img
-        src="/er-github.png"
+        src={githubIconSrc}
         alt="author's github"
         className="h-full"
       />

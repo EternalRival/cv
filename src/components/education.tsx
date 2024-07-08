@@ -1,4 +1,4 @@
-import { SectionId } from '../model/section-id.enum';
+import { SectionId } from '~/model/section-id.enum';
 
 const coursesProps = [
   { label: 'RSSchool JSFE2022Q3', certificateUrl: 'https://app.rs.school/certificate/yuh2boy4' },

@@ -1,4 +1,4 @@
-import { SectionId } from '../model/section-id.enum';
+import { SectionId } from '~/model/section-id.enum';
 
 const contactsProps = [
   { title: 'GitHub', label: '@EternalRival', href: 'https://github.com/EternalRival/' },

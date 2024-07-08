@@ -1,5 +1,5 @@
 import { Fragment } from 'react/jsx-runtime';
-import { SectionId } from '../model/section-id.enum';
+import { SectionId } from '~/model/section-id.enum';
 import clsx from 'clsx';
 
 const projectsProps = [

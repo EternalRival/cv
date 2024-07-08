@@ -5,11 +5,11 @@ import {
   Experience,
   GithubLink,
   Languages,
+  NavBar,
   Person,
-  TechStack,
   Summary,
-} from './components';
-import { NavBar } from './components/nav-bar';
+  TechStack,
+} from '~/components';
 
 export function App(): JSX.Element {
   return (

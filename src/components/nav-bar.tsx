@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import { SectionId } from '../model/section-id.enum';
+import { SectionId } from '~/model/section-id.enum';
 
 const navBarProps = [
   { label: 'Contacts', sectionId: SectionId.Contacts, className: 'hidden md:flex' },

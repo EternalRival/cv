@@ -1,4 +1,4 @@
-import { SectionId } from '../model/section-id.enum';
+import { SectionId } from '~/model/section-id.enum';
 
 export function Summary(): JSX.Element {
   return (
