@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link {
+  @apply text-primary-900 underline;
+}
+
+:is(.link, .nav-link):hover {
+  text-shadow: 0 0 1px #3d571b;
+}
+
+.main-part {
+  .heading {
+    @apply bg-primary-400 text-center text-2xl font-bold;
+  }
+
+  .list {
+    @apply py-4 pl-8 pr-3;
+
+    list-style-type: '🌼 ';
+  }
+
+  @apply bg-primary-100;
+}
+
+.secondary-part {
+  .heading {
+    @apply text-2xl font-bold underline underline-offset-[6px];
+  }
+
+  @apply bg-primary-50 p-3;
+}
