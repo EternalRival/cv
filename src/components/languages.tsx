@@ -1,5 +1,7 @@
 import { SectionId } from '~/model/section-id.enum';
 
+import type { JSX } from 'react';
+
 const languagesList = ['Russian (Native)', 'English (~A1)'];
 
 export function Languages(): JSX.Element {

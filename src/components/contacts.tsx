@@ -1,5 +1,7 @@
 import { SectionId } from '~/model/section-id.enum';
 
+import type { JSX } from 'react';
+
 const contactsProps = [
   { title: 'GitHub', label: '@EternalRival', href: 'https://github.com/EternalRival/' },
   { title: 'E-Mail', label: 'erdevelopment8@gmail.com', href: 'mailto:erdevelopment8@gmail.com' },

@@ -1,5 +1,7 @@
 import githubIconSrc from '~/assets/er-github.png';
 
+import type { JSX } from 'react';
+
 export function GithubLink(): JSX.Element {
   return (
     <a

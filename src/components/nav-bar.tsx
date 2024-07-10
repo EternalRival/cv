@@ -1,6 +1,8 @@
 import clsx from 'clsx';
 import { SectionId } from '~/model/section-id.enum';
 
+import type { JSX } from 'react';
+
 const navBarProps = [
   { label: 'Contacts', sectionId: SectionId.Contacts, className: 'hidden md:flex' },
   { label: 'Skills', sectionId: SectionId.TechStack, className: 'hidden md:flex' },

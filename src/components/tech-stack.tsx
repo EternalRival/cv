@@ -1,5 +1,7 @@
 import { SectionId } from '~/model/section-id.enum';
 
+import type { JSX } from 'react';
+
 const techStackList = [
   'Git',
   'TypeScript / React',

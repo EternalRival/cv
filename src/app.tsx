@@ -11,6 +11,8 @@ import {
   TechStack,
 } from '~/components';
 
+import type { JSX } from 'react';
+
 export function App(): JSX.Element {
   return (
     <div className="flex min-h-screen flex-col justify-between gap-2 bg-neutral-300">

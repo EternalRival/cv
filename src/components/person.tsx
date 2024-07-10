@@ -1,5 +1,7 @@
 import avatarSrc from '~/assets/avatar.webp';
 
+import type { JSX } from 'react';
+
 export function Person(): JSX.Element {
   return (
     <section>

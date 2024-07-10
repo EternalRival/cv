@@ -1,5 +1,7 @@
 import { SectionId } from '~/model/section-id.enum';
 
+import type { JSX } from 'react';
+
 const coursesProps = [
   { label: 'RSSchool JSFE2022Q3', certificateUrl: 'https://app.rs.school/certificate/yuh2boy4' },
   { label: 'RSSchool NodeJS2023Q2', certificateUrl: 'https://app.rs.school/certificate/syc0x9nh' },

@@ -1,5 +1,7 @@
 import { SectionId } from '~/model/section-id.enum';
 
+import type { JSX } from 'react';
+
 export function Summary(): JSX.Element {
   return (
     <section id={SectionId.Summary}>

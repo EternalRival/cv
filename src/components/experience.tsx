@@ -3,6 +3,8 @@ import { Fragment } from 'react/jsx-runtime';
 import { SectionId } from '~/model/section-id.enum';
 import { GroupIcon } from './group-icon';
 
+import type { JSX } from 'react';
+
 const projectsProps = [
   {
     label: 'gem-puzzle',

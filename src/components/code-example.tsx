@@ -2,6 +2,8 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { darcula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { SectionId } from '~/model/section-id.enum';
 
+import type { JSX } from 'react';
+
 const codeExample = `
 type Props = Readonly<
   PropsWithChildren<{
