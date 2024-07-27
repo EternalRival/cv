@@ -13,7 +13,7 @@ export function Summary(): JSX.Element {
         abandoned the hobby for personal reasons. Later came back to development, started learning JS on my own, and
         then the rest of the technology frontend stack (and a bit of the backend). Completed JS, Node and React courses
         at RSSchool (courses from EPAM), participated in team projects and still volunteer there, helping newcomers with
-        various issues. I am offering myself for the position of Frontend Software Developer at a cost of 1400$
+        various issues. {/* I am offering myself for the position of Frontend Software Developer at a cost of 1400$ */}
       </p>
     </section>
   );
