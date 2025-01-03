@@ -48,7 +48,7 @@
   - TS, Vue3, Vite, TailwindCSS, Tanstack Query, Zod
 - **christmas-shop**
   - [source](https://github.com/EternalRival/christmas-shop) / [deploy](https://er-xmas-shop.netlify.app/) / [figma](https://www.figma.com/design/zTB01BwWZVoXYK5atH3eZT/Cristmas-Shop)
-  - Приложение для набора текста с помощью физической и/или виртуальной клавиатуры.
+  - Двустраничный лендинг, созданный на основе макета из Figma. Адаптивный дизайн. PixelPerfect. Компонентный подход.
   - TS, Webpack, CSS Modules
 - **virtual-keyboard**
   - [source](https://github.com/EternalRival/virtual-keyboard) / [deploy](https://eternalrival.github.io/virtual-keyboard/)
