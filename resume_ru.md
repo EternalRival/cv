@@ -33,9 +33,9 @@
 
 - **decision-making-tool**
   - Пет-проект
-  - [source (private)](https://github.com/EternalRival/decision-making-tool) / [deploy (obfuscated)](https://er-dmt-demo.netlify.app/)
+  - [source](https://github.com/EternalRival/decision-making-tool) / [deploy](https://eternalrival.github.io/decision-making-tool/)
   - Приложение для стримеров, контентмейкеров и любителей настольных игр. Помогает совершить случайный выбор на основе веса варианта (вес увеличивает шанс выпадения варианта).
-  - TS, Vite, CSS Modules
+  - TS, React, React Router, Redux + RTK, Vite, CSS Modules, Zod
 - **rsschool-tools**
   - Пет-проект
   - [source](https://github.com/EternalRival/er-rsschool-tools) / [deploy](https://er-rsschool-tools.vercel.app/)
